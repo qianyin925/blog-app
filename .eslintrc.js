@@ -18,6 +18,7 @@ module.exports = {
     'react/display-name': 0,       // 防止在React组件定义中丢失displayName: Component definition is missing display name
 
     // 个性化定制
+    'prettier/prettier': 'off',                                       // 关闭 prettier
     'indent': [1, 2],                                                 // 缩进: 2个空格
     'max-len': [1, { 'code': 80 }],                                   // 单行不超过 80
     'keyword-spacing': [1],                                           // 强制关键字周围空格的一致性
