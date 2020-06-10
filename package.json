@@ -12,7 +12,8 @@
     "release:100": "npm run release -- major",
     "release:010": "npm run release -- minor",
     "release:001": "npm run release -- patch",
-    "eslint:fix": "eslint --fix src"
+    "eslint:fix": "eslint --fix src",
+    "emulator": "sudo chown $USER -R /dev/kvm && emulator -netdelay none -netspeed full -avd blog_app"
   },
   "dependencies": {
     "react": "16.11.0",
